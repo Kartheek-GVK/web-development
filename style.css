@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    position: absolute;
+}
+
+.bg::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vh;
+    opacity: 0.7;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.home {
+    height: 70vh;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+.get-started {
+    border-radius: 7px;
+    background-color: rgb(234, 14, 14);
+}
+
+.signup {
+    background-color: rgb(234, 14, 14);
+    color: white;
+
+}
+
+input,
+.english {
+    background: transparent;
+    color: white;
+    border-radius: 7px;
+}
+
+.separator {
+    position: relative;
+    background-color: rgb(66, 63, 63);
+    height: 5px;
+    width: 100vw;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+.faq-question {
+    background-color: rgb(36, 37, 37);
+    transition: all 1s ease-out;
+    font-size: large;
+    color: #ffffff;
+    width: 60vw;
+    margin: auto;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.faq-question:hover {
+    cursor: pointer;
+    background-color: rgb(85, 89, 89);
+}
+
+ul{
+    list-style: none;
+    align-items: left;
+}
+ul p{
+    color:  rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    text-align: left;
+    font-size: 15px;
+}
